@@ -657,10 +657,10 @@ textarea::-ms-input-placeholder
     transform: scale(1.3);
 }
 .gallery-item-description {
-    background-color: #fff;
+    background-opacity: 100;
     display: block;
     padding: 20px 15px;
-    color: #333;
+    color: #FFFFFF;
     text-transform: uppercase;
     clear: both;
     position: relative;
