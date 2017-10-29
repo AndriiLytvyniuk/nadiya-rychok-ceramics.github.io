@@ -10,7 +10,8 @@ jQuery(document).ready(function ($) {
     /*---------------------------------------------*
      * Mobile menu
      ---------------------------------------------*/
-    $('#navbar-collapse').find('a[href*=#]:not([href=#])').click(function () {
+
+    $('a[href*=#]:not([href=#])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -25,8 +26,8 @@ jQuery(document).ready(function ($) {
             }
         }
     });
-	
-	
+
+
 	/*---------------------------------------------*
      * Portfolio Pop Up Animation
      ---------------------------------------------*/
@@ -37,27 +38,27 @@ jQuery(document).ready(function ($) {
             enabled: true
         }
     });
-	
+
 	/*---------------------------------------------*
      * Menu Background Change
      ---------------------------------------------*/
-	
+
 	var windowWidth = $(window).width();
     if (windowWidth > 757) {
 
-        
-          
+
+
             $(window).scroll(function () {
                 if ($(this).scrollTop() > 500) {
                     $('.navbar').fadeIn(500);
                     $('.navbar').addClass('menu-bg');
 
                 } else {
-                    
+
                     $('.navbar').removeClass('menu-bg');
                 }
             });
-        
+
     }
 	$('#bs-example-navbar-collapse-1').localScroll();
 
@@ -71,7 +72,7 @@ jQuery(document).ready(function ($) {
 
 
     /*---------------------------------------------*
-     * Counter 
+     * Counter
      ---------------------------------------------*/
 
 //    $('.statistic-counter').counterUp({
