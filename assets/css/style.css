@@ -242,7 +242,7 @@ section .subtitle-half h5 {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, .55);
+    background-color: rgba(0, 0, 0, .44);
     width: 100%;
     min-height:700px;
 }
