@@ -10,7 +10,6 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     body {
         font-size: 15px;
     }
-    
 
 }
 
@@ -28,7 +27,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.about-content {
     text-align: center;
 	}
-
+    .scroll-down {
+        margin-top: 100px;
+    }
 }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
@@ -55,7 +56,17 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     line-height: 23px;
     margin-top: 30px;
 	}
-   
+    #bs-example-navbar-collapse-1 {
+        background-color: rgba(46, 59, 79, 0.9);
+        max-height: none;
+    }
+    #bs-example-navbar-collapse-1 .navbar-nav>li>a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .scroll-down {
+        margin-top: 100px;
+    }
 }
 
 
@@ -84,6 +95,17 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.copyright p {
     font-size: 12px;
 	}
+    #bs-example-navbar-collapse-1 {
+        background-color: rgba(46, 59, 79, 0.9);
+        max-height: none;
+    }
+    #bs-example-navbar-collapse-1 .navbar-nav>li>a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .scroll-down {
+        margin-top: 100px;
+    }
 
 }
 
@@ -91,9 +113,19 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 @media (max-width: 320px) {
 
-
+    #bs-example-navbar-collapse-1 {
+        background-color: rgba(46, 59, 79, 0.9);
+        max-height: none;
+    }
+    #bs-example-navbar-collapse-1 .navbar-nav>li>a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     html {
         font-size: 60.5%;
+    }
+    .scroll-down {
+        margin-top: 100px;
     }
 }
 

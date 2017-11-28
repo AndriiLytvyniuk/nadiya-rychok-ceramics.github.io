@@ -416,7 +416,7 @@ textarea::-ms-input-placeholder
 /* For Our Global CSSS */
 
 .scroll-down{
-	margin-top:100px;
+	margin-top:150px;
 	text-transform:uppercase;
 	text-align:center;
 }
@@ -474,11 +474,15 @@ textarea::-ms-input-placeholder
     color: #f1f1f1;
     background-color: transparent;
 }
-.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.active>a:focus {
+    color: #f1f1f1;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a:hover{
     color: red;
     background-color: transparent;
 }
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav>li>a:hover {
     color: red;
     background-color: transparent;
 }
@@ -511,6 +515,7 @@ textarea::-ms-input-placeholder
 }
 .home-details{
 	margin-top:150px;
+    margin-bottom: 40px;
 	color:#f1f1f1;
 	text-transform:uppercase;
 }
